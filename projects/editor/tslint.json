@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "gg-monaco",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "gg-monaco",
+      "kebab-case"
+    ]
+  }
+}

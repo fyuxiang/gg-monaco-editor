@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { EditorModel } from 'editor';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'gg-monaco-editor';
+  code = '';
+  options = Object.assign({}, {theme: 'vs-dark'}, { language: 'text' });
+  onchange(e: string){}
 }

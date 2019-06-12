@@ -1,0 +1,25 @@
+{
+  "name": "gg-monaco-editor",
+  "version": "1.0.0",
+  "private": false,
+  "description": "depend on monaco and Angular",
+  "keywords": [
+    "angular",
+    "monaco-editor",
+    "code",
+    "editor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/general/gg-monaco-editor.git"
+  },
+  "license": "MIT",
+  "author": "General",
+  "contributors": [
+    "General 895239840@qq.com"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^7.1.0",
+    "@angular/core": "^7.1.0"
+  }
+}
